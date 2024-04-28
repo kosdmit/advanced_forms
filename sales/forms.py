@@ -4,7 +4,7 @@ from sales.models import Customer
 
 
 class CustomerForm(forms.ModelForm):
-    # template_name_div = 'forms/div.html'
+    template_name_div = 'forms/div.html'
 
     class Meta:
         model = Customer
@@ -15,5 +15,5 @@ class CustomerForm(forms.ModelForm):
 
         for field in self.fields.values():
             field.widget.attrs['class'] = 'form-control'
-            # field.widget.attrs['placeholder'] = field.label
+            field.widget.attrs['placeholder'] = field.label
         
