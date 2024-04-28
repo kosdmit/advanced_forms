@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  {{ form }}
+  <div class="col-4">
+    {{ form.as_div }}
+  </div>
 {% endblock %}
