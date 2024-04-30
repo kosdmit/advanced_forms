@@ -1,7 +1,8 @@
 {% extends 'base.html' %}
+{% load crispy_forms_tags %}
 
 {% block content %}
   <div class="col-4">
-    {{ form.as_div }}
+    {% crispy form %}
   </div>
 {% endblock %}
