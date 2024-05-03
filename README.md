@@ -1,5 +1,7 @@
 # Django Advanced Forms
 
+![](article/assets/cover.png)
+
 This repository includes an article and a Django project that demonstrates advanced techniques for rendering web forms in Django.
 
 ## Article
